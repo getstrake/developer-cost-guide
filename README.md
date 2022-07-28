@@ -6,7 +6,7 @@
 
 Engineers are spending too much time and money trying to understand and control their AWS Cloud Costs. The DIY Billing Project is a set of guides to share code with Engineers who are working on AWS Cost Analysis to quickly query billing data to figure out what is driving your costs. 
 
-This project was created and is maintained by the team at [Macroscope](https://www.macroscope.io). If you're interested in learning more about what we're building and how we're working to solve the 'cloud cost' problem for engineers, [sign up](https://preview.macroscope.io/sign-up) to get a product demo and learn about our beta program!
+This project was created and is maintained by the team at [Macroscope](https://www.macroscope.io). If you're interested in learning more about what we're building and how we're working to solve the 'cloud cost' problem for engineers, [sign up](https://macroscope.io/sign-up) to get a product demo and learn about our beta program!
 
 
 
@@ -23,10 +23,8 @@ The information on the [DIY BIlling](https://diy-billing.projects.macroscope.io/
 
 
 ## Contact Us
-
-For any questions or suggestions about the DIY Billing Project, email the team at: diybilling@macroscope.io
-
-Also, be sure to check out Macroscope's [website](https://www.macroscope.io) and check out our other content on [LinkedIn](https://www.linkedin.com/company/getmacroscope/).
+For analysis requests or questions about our Guides, check out our [Discussions](https://github.com/getmacroscope/diy-billing/discussions).
+Also, be sure to check out Macroscope's [website](https://www.macroscope.io).
 
 
 
