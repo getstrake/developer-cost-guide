@@ -1,0 +1,18 @@
+#AWS Billing IAM Permissions
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "aws-portal:ViewUsage",
+        "aws-portal:ViewBilling",
+        "cur:DescribeReportDefinitions",
+        "cur:PutReportDefinition",
+        "cur:DeleteReportDefinition",
+        "cur:ModifyReportDefinition"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
