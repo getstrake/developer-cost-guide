@@ -21,6 +21,18 @@ The information on the [DIY BIlling](https://diy-billing.projects.macroscope.io/
 [AWS Cost Analysis: Elastic Compute Cloud](https://diy-billing.projects.macroscope.io/guides/ec2/)
 
 
+## Roadmap
+Anyone who wants to influence the roadmap can post an analysis request on our [Analysis Request](https://github.com/getmacroscope/diy-billing/discussions/2) discussion. Here are the topics currently on the roadmap
+### AWS Service Deep Dives
+- RDS
+- Lambda
+- S3
+### Other AWS Topics
+- Cost and Usage Report Data Dictionary
+- AWS Reservations Analysis
+- Enterprise Discount Programs
+
+
 
 ---
 
