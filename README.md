@@ -23,7 +23,7 @@ The information on the [DIY BIlling](https://diy-billing.projects.macroscope.io/
 
 ## Roadmap
 Anyone who wants to influence the roadmap can post an analysis request on our [Analysis Request](https://github.com/getmacroscope/diy-billing/discussions/2) discussion. Here are the topics currently on the roadmap
-### AWS Service Deep Dives
+### AWS Service Deep Dives (Next 3)
 - RDS
 - Lambda
 - S3
