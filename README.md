@@ -1,4 +1,4 @@
-# [Developer's Guide to AWS Costs](https://developer-costs-guide.projects.macroscope.io)
+# [Developer's Guide to AWS Costs](https://developer-cost-guide.projects.macroscope.io/)
 
 
 
@@ -12,14 +12,14 @@ Thanks for reading! Check out our [website](https://www.macroscope.io/sign-up) i
 
 ## Guides
 
-The information on the [Developer's Guide to AWS Costs](https://developer-costs-guide.projects.macroscope.io) website is structured in 'Guides'. Each guide will give a user a start-to-finish overview of how to perform analysis on an AWS Service. Guides include details on IAM Permissions (when required), sample code for analysis, and in-depth explanations of query results and the Cost and Usage Report (CUR) fields required for analysis.
+The information on the [Developer's Guide to AWS Costs](https://developer-cost-guide.projects.macroscope.io/) website is structured in 'Guides'. Each guide will give a user a start-to-finish overview of how to perform analysis on an AWS Service. Guides include details on IAM Permissions (when required), sample code for analysis, and in-depth explanations of query results and the Cost and Usage Report (CUR) fields required for analysis.
 
 
-[DIY Billing Introduction](https://developer-costs-guide.projects.macroscope.io/guides/guide-00-introduction/)
+[Introduction: Developer's Guide to AWS Costs](https://developer-cost-guide.projects.macroscope.io/guides/guide-00-introduction/)
 
-[AWS Cost Analysis: Setup](https://developer-costs-guide.projects.macroscope.io/guides/guide-01-costandusagereport/)
+[AWS Cost Analysis: Setup](https://developer-cost-guide.projects.macroscope.io/guides/guide-01-costandusagereport/)
 
-[AWS Cost Analysis: Elastic Compute Cloud](https://developer-costs-guide.projects.macroscope.io/guides/guide-03-ec2/)
+[AWS Cost Analysis: Elastic Compute Cloud](https://developer-cost-guide.projects.macroscope.io/guides/guide-02-ec2/)
 
 
 ## Roadmap
