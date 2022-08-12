@@ -12,4 +12,4 @@ WHERE
 GROUP BY
 	[lineitem/ResourceID]
 ORDER BY
-	sum([lineItem/UnblendedCost]);	
+	sum([lineItem/UnblendedCost]);
