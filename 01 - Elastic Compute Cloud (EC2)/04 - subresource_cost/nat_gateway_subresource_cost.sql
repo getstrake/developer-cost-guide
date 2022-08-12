@@ -16,3 +16,4 @@ GROUP BY
 	[lineItem/Operation]
 ORDER BY
 	sum([lineItem/UnblendedCost]);
+	
