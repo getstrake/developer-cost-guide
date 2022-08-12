@@ -35,8 +35,6 @@ Anyone who wants to influence the roadmap can post an analysis request on our [R
 - AWS Reservations Analysis
 - Enterprise Discount Programs
 
-
-
 ---
 
 Copyright 2021, Macroscope Inc.
