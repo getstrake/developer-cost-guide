@@ -1,5 +1,5 @@
 #Total Resource Cost for EC2
-##Combine existence and utilization costs to get a total EC2 instance cost by EC2 resource ID.
+##Combine existence and utilization costs to get a total EC2 instance cost grouped by instance type and region.
 
 WITH resource_existence_cost AS (
 WITH on_demand_existence AS (
@@ -61,7 +61,7 @@ SELECT
 	COALESCE(on_demand_existence.existence_cost, 0) as on_demand_existence_cost,
 	COALESCE(spot_existence.existence_cost, 0) as spot_existence_cost,
 	COALESCE(reserved_existence.existence_cost, 0) as reserved_existence_cost,
-	COALESCE(savings_plan_existence.existence_cost, 0) as savings_plan_existence_cost,
+	COALESCE(savings_plan_existence.existence_cost,0) as savings_plan_existence_cost,
 	(COALESCE(on_demand_existence.existence_cost, 0) + COALESCE(spot_existence.existence_cost, 0) + COALESCE(reserved_existence.existence_cost, 0) + COALESCE(savings_plan_existence.existence_cost, 0)) AS total_existence_cost
 FROM CUR
 LEFT JOIN 
@@ -102,7 +102,6 @@ GROUP BY
 	[lineItem/Operation]
 )
 SELECT
-	CUR.[lineItem/ResourceId],
 	CUR.[product/instanceType],
 	CUR.[product/region],
 	COALESCE(resource_existence_cost.total_existence_cost, 0) as total_existence_cost,
@@ -120,7 +119,6 @@ WHERE
 	and CUR.[product/instanceType] <> ""
 	and CUR.[lineitem/ResourceId] <> ""
 GROUP BY
-	CUR.[lineItem/ResourceId],
 	CUR.[product/instanceType],
 	CUR.[product/region]
 ORDER BY
