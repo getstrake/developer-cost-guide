@@ -21,7 +21,7 @@ The information on the [Developer's Guide to AWS Costs](https://developer-cost-g
 
 [AWS Cost Analysis: Elastic Compute Cloud](https://developer-cost-guide.projects.macroscope.io/guides/guide-02-ec2/)
 
-[AWS Cost Analysis: Relational Database Service](https://developer-cost-guide.projects.macroscope.io/guides/guide-02-rds/)
+[AWS Cost Analysis: Relational Database Service](https://developer-cost-guide.projects.macroscope.io/guides/guide-03-rds/)
 
 
 ## Roadmap
