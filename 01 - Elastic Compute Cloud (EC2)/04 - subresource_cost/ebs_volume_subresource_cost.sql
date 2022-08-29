@@ -1,6 +1,5 @@
 #Subresource Costs
-##Subresource costs for EBS Volume Snapshots
-
+##Subresource costs for EBS Volumes
 SELECT DISTINCT
 	[lineItem/ResourceID],
 	[lineItem/LineItemType],
@@ -9,7 +8,7 @@ SELECT DISTINCT
 FROM CUR
 WHERE
 	[lineItem/ProductCode] is 'AmazonEC2'
-	and [lineItem/ResourceId] LIKE '%snapshot%'
+	and [lineItem/ResourceId] LIKE 'vol-%'
 GROUP BY
 	[lineItem/ResourceID],
 	[lineitem/lineitemtype],
