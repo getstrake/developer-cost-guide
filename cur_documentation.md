@@ -14,9 +14,9 @@ The following table shows the data categories in the Cost and Usage Report and t
 
 | Category                | Status      |
 | ----------------------- | ----------- |
-| [Bill](##Bill)          | Up to date  |
-| [Identity](##Identity)  | Up to date  |
-| [Pricing](##Pricing)    | Up to date  |
+| [Bill](#Bill)           | Up to date  |
+| [Identity](#Identity)   | Up to date  |
+| [Pricing](#Pricing)     | Up to date  |
 | Line Item               | Not Started |
 | Product                 | Not Started |
 | Reservation             | Not Started |
